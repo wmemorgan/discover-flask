@@ -12,6 +12,7 @@ flask = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 python-dotenv = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
