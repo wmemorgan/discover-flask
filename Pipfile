@@ -9,7 +9,6 @@ autopep8 = "*"
 
 [packages]
 flask = "*"
-functools = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 
