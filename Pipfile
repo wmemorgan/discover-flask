@@ -9,6 +9,7 @@ autopep8 = "*"
 
 [packages]
 flask = "*"
+functools = "*"
 
 [requires]
 python_version = "3.8"
