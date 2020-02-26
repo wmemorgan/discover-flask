@@ -10,6 +10,7 @@ autopep8 = "*"
 [packages]
 flask = "*"
 functools = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.8"

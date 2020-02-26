@@ -55,7 +55,7 @@ class FlaskTestCase(unittest.TestCase):
         tester = app.test_client()
         response = tester.post(
             '/login', data=dict(username='admin', password='admin'), follow_redirects=True)
-        self.assertIn(b'Hello from the shell', response.data)
+        self.assertIn(b'Shell Test', response.data)
 
 if __name__ == '__main__':
     unittest.main()
