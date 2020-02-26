@@ -34,7 +34,10 @@ def login_required(f):
 @login_required
 def home():
     # return "Hello, world!"
-    posts = db.session.query(BlogPost).all()
+    try:
+        posts = db.session.query(BlogPost).all()
+    except:
+        flash('Missing the DB!') 
     return render_template("index.html", posts=posts)
 
 @app.route('/welcome')
